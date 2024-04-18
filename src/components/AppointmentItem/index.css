@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.name-btn {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  justify-content: flex-end;
+}
+.star-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.list-container {
+  display: flex;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  background: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  max-width: 280px;
+  flex-wrap: wrap;
+  padding: 5px;
+  padding-left: -10px;
+  overflow: auto;
+}
+
+.date {
+  color: #b5b7c4;
+}
